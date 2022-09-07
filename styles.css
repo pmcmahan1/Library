@@ -25,7 +25,7 @@ form{
   }
 
 
-.btn-submit {
+.btnSubmit {
     cursor: pointer;
     margin-left: 10px;
     border-radius: 8px;
@@ -42,18 +42,18 @@ form{
     font-size: 24px;
 }
 
-.input-container {
+.formtableContainer {
     display: flex;
     justify-content: center;
 }
 
-.container {
+.tableContainer {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-.form-group {
+.formGroup {
     display: flex;
     justify-content: space-between;
     padding: 8px;

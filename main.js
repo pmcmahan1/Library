@@ -17,7 +17,7 @@ class UI {
     }
 
     static addBookToList(book) {
-        const list = document.querySelector('#book-list');
+        const list = document.querySelector('#bookList');
 
         const row = document.createElement('tr');
 
@@ -86,7 +86,7 @@ class Store {
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 // Event: Add a Book
-document.querySelector('#book-form').addEventListener('submit', (e) => {
+document.querySelector('#bookForm').addEventListener('submit', (e) => {
 
     // Prevent actual submit
     e.preventDefault();
@@ -118,7 +118,7 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 });
 
 // Event: Remove a Book
-document.querySelector('#book-list').addEventListener('click', (e) =>
+document.querySelector('#bookList').addEventListener('click', (e) =>
 {
     // Remove book from UI
     UI.deleteBook(e.target)

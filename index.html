@@ -13,31 +13,31 @@
     <header class="header">
         <h1>My Library</h1>
     </header>
-    <div class="input-container">
-    <form id="book-form">
-    <div class="form-group">
+    <div class="formtableContainer">
+    <form id="bookForm">
+    <div class="formGroup">
         <label for="title">Title</label>
-        <input type="text" id="title" class="form-control">
+        <input type="text" id="title">
     </div>
-    <div class="form-group">
+    <div class="formGroup">
         <label for="author">Author</label>
-        <input type="text" id="author" class="form-control">
+        <input type="text" id="author">
     </div>
-    <div class="form-group">
+    <div class="formGroup">
         <label for="pages">Pages</label>
-        <input type="number" id="pages" class="form-control">
+        <input type="number" id="pages">
     </div>
-    <div class="form-group">
+    <div class="formGroup">
         <label for="status">Status</label>
-        <select name="status" id="status" class="form-control">
+        <select name="status" id="status">
             <option value="read">Read</option>
             <option value="not read">Not read</option>
         </select>
-    <input type="submit" class ="btn-submit" value="Add Book">
+    <input type="submit" class ="btnSubmit" value="Add Book">
     </div>
     </form>
 </div>
-    <div class="container">
+    <div class="tableContainer">
     <table class="table">
         <thead>
             <tr>
@@ -48,7 +48,7 @@
                 <th></th>
             </tr>
         </thead>
-        <tbody id="book-list"></tbody>
+        <tbody id="bookList"></tbody>
     </table>
 </div>
 </body>
