@@ -18,45 +18,33 @@ a {
 }
 
 form{
-
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-items: center;
-  
-  }
-  
-input {
-    padding: 4px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
   }
 
-  input:focus {
-    border: thin solid #555;
-  }
 
 .btn-submit {
+    cursor: pointer;
     margin-left: 10px;
     border-radius: 8px;
 }
 
-.btn-submit:hover {
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
 
 .header {
     width: 100vw;
     display: flex;
     justify-content: center;
     padding: 1rem;
-    padding-top: 80px;
+    padding-top: 60px;
     font-weight: bolder;
     font-size: 24px;
 }
 
 .input-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -66,9 +54,12 @@ input {
   }
 
 .form-group {
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
     font-size: 18px;
     font-weight: 500;
+    width: 100%;
 }
 
 .table {
